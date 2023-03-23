@@ -1,0 +1,222 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Copy Nav Menu Items\n"
+"POT-Creation-Date: 2023-03-23 10:30-0700\n"
+"PO-Revision-Date: 2020-05-07 14:37-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: copy-nav-menu-items.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/core/class-ajax.php:50
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/core/class-ajax.php:72
+msgid "You are not authorized to copy nav menu items."
+msgstr ""
+
+#: includes/core/class-ajax.php:85
+msgid "Nav menu item could not be copied."
+msgstr ""
+
+#: includes/core/class-ajax.php:182
+#, php-format
+msgctxt "Nav Menu Item Title"
+msgid "%1$s nav menu item could not be copied."
+msgstr ""
+
+#: includes/core/class-ajax.php:222
+#, php-format
+msgctxt "Nav Menu Item Title"
+msgid "%1$s nav menu item copied successfully."
+msgstr ""
+
+#: includes/core/class-ajax.php:244
+msgid "You are not authorized to save settings."
+msgstr ""
+
+#: includes/core/class-ajax.php:248
+msgid "Settings could not be saved."
+msgstr ""
+
+#: includes/core/class-base.php:182
+#: includes/standalone/class-meta-box.php:336
+msgid "Support"
+msgstr ""
+
+#: includes/core/class-base.php:183
+msgid "Review"
+msgstr ""
+
+#: includes/core/class-base.php:184
+msgid "Translate"
+msgstr ""
+
+#: includes/core/class-base.php:185
+msgid "Donate"
+msgstr ""
+
+#: includes/core/class-settings.php:66
+msgid "Settings"
+msgstr ""
+
+#: includes/core/class-settings.php:151
+msgid "Nav Menus"
+msgstr ""
+
+#: includes/core/class-settings.php:233
+msgid "Uninstall Settings"
+msgstr ""
+
+#: includes/core/class-settings.php:239
+#, php-format
+msgctxt "Plugin Name"
+msgid "Delete settings for %1$s when the plugin is uninstalled."
+msgstr ""
+
+#: includes/core/class-settings.php:243
+msgid "Delete Settings"
+msgstr ""
+
+#: includes/core/class-settings.php:254
+#, php-format
+msgctxt "Plugin Name"
+msgid "Delete user meta for %1$s when the plugin is uninstalled."
+msgstr ""
+
+#: includes/core/class-settings.php:258
+msgid "Delete User Meta"
+msgstr ""
+
+#: includes/core/class-settings.php:265
+msgid "Save Settings"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:150
+#, php-format
+msgctxt "Label"
+msgid "Confirm %1$s"
+msgstr ""
+
+#: includes/fields/class-field-submit.php:58
+msgid "Submit"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:342
+#: includes/static/class-help.php:50
+msgid "Plugin developed by"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:348
+msgid "Knowledge base available on"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:354
+msgid "Running into issues with the plugin?"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:355
+msgid "Submit a ticket."
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:360
+msgid "Have some feedback you'd like to share?"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:361
+msgid "Provide a review."
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:366
+msgid "Want to see the plugin in your language?"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:367
+msgid "Assist with translation."
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:372
+msgid "Would you like to support development?"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:376
+#, php-format
+msgctxt "Donate Link"
+msgid ""
+"Sign up for WPEngine using the banner in the 'Better Hosting with "
+"WPEngine' meta box or %1$s."
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:377
+msgid "make a donation"
+msgstr ""
+
+#: includes/standalone/class-meta-box.php:389
+msgid "Better Hosting with WPEngine"
+msgstr ""
+
+#: includes/static/class-global.php:52
+msgid "Copy Nav Menu Item"
+msgstr ""
+
+#: includes/static/class-global.php:53
+msgid ""
+"The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: includes/static/class-help.php:53
+msgid "Plugin Support"
+msgstr ""
+
+#: includes/static/class-help.php:54
+msgid "Review Plugin"
+msgstr ""
+
+#: includes/static/class-help.php:55
+msgid "Translate Plugin"
+msgstr ""
+
+#: includes/static/class-help.php:56
+msgid "Plugin Donation"
+msgstr ""
+
+#: includes/static/class-help.php:71
+msgid ""
+"For more information about this page, view the knowledge base article at:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Copy Nav Menu Items"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/copy-nav-menu-items/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Simple plugin that allows for nav menu items to be copied with a single "
+"click."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Robert Noakes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://robertnoakes.com/"
+msgstr ""
