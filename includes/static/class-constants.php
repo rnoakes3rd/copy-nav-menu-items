@@ -46,8 +46,8 @@ final class Copy_Nav_Menu_Items_Constants
 	 *
 	 * @var string
 	 */
-	const VERSION = '1.1.3';
-	const VERSION_PREVIOUS = '1.1.2';
+	const VERSION = '1.1.4';
+	const VERSION_PREVIOUS = '1.1.3';
 	
 	/**
 	 * Plugin hook names.

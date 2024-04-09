@@ -3,9 +3,9 @@ Contributors: rnoakes3rd
 Donate link: https://www.paypal.com/donate?hosted_button_id=CAWMKCNVS8D8C&source=url
 Tags: copy, item, items, menu, nav
 Requires at least: 5.0
-Tested up to: 6.2
-Stable tag: 1.1.3
-Copyright: (c) 2020-2023 Robert Noakes (mr@robertnoakes.com)
+Tested up to: 6.5
+Stable tag: 1.1.4
+Copyright: (c) 2020-2024 Robert Noakes (mr@robertnoakes.com)
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -56,6 +56,10 @@ Once the plugin is active, simply visit **Settings > Copy Nav Menu Items** and e
 2. Nav menu items
 
 == Changelog ==
+
+= 1.1.4 =
+
+* Verified: Functionality for WordPress 6.5
 
 = 1.1.3 =
 

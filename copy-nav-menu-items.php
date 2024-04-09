@@ -3,12 +3,12 @@
  * Plugin Name: Copy Nav Menu Items
  * Plugin URI:  https://wordpress.org/plugins/copy-nav-menu-items/
  * Description: Simple plugin that allows for nav menu items to be copied with a single click.
- * Version:     1.1.3
+ * Version:     1.1.4
  * Author:      Robert Noakes
  * Author URI:  https://robertnoakes.com/
  * Text Domain: copy-nav-menu-items
  * Domain Path: /languages/
- * Copyright:   (c) 2020-2023 Robert Noakes (mr@robertnoakes.com)
+ * Copyright:   (c) 2020-2024 Robert Noakes (mr@robertnoakes.com)
  * License:     GNU General Public License v3.0
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
