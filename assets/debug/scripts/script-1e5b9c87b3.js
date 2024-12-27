@@ -727,8 +727,8 @@
 				if (!NAV_MENUS.menu.hasClass('cnmi-copying'))
 				{
 					var clicked = $(this),
-					copying = NAV_MENUS.menu.add(clicked).addClass('cnmi-copying'),
-					menu_item = clicked.closest('.menu-item');
+						copying = NAV_MENUS.menu.add(clicked).addClass('cnmi-copying'),
+						menu_item = clicked.closest('.menu-item');
 
 						$.post(
 					{
@@ -749,7 +749,7 @@
 
 								if (response.data.copied)
 							{
-								var copied = $(response.data.copied).hideAdvancedMenuItemFields().moveHorizontally(menu_item.menuItemDepth()).insertAfter(menu_item.cnmi_last_child()).updateParentMenuItemDBId();
+								var copied = $(response.data.copied).hideAdvancedMenuItemFields().appendTo(window.wpNavMenu.targetList);
 
 									copied.children('.menu-item-settings').children().not('input').find(':input[name]')
 								.each(function ()
@@ -773,6 +773,13 @@
 
 										current.trigger('change');
 								});
+
+									WPNAVMENU.refreshKeyboardAccessibility();
+								WPNAVMENU.refreshAdvancedAccessibility();
+
+									PLUGIN.document.trigger('menu-item-added', [copied]);
+
+																copied.insertAfter(menu_item.cnmi_last_child()).moveHorizontally(menu_item.menuItemDepth(), copied.menuItemDepth());
 
 									WPNAVMENU.refreshKeyboardAccessibility();
 								WPNAVMENU.refreshAdvancedAccessibility();
